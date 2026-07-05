@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "spec_versie": "1.0",
+    "aangemaakt_op": "{{DATUM}}",
+    "klant_id": "{{KLANT_ID}}",
+    "project_naam": "{{PROJECT_NAAM}}"
+  },
+  "bedrijf": {
+    "naam": "{{BEDRIJF_NAAM}}",
+    "slug": "{{BEDRIJF_SLUG}}",
+    "email": "{{BEDRIJF_EMAIL}}",
+    "telefoon": "{{BEDRIJF_TEL}}",
+    "adres": "{{BEDRIJF_ADRES}}",
+    "postcode": "{{POSTCODE}}",
+    "stad": "{{STAD}}",
+    "kvk": "{{KVK}}",
+    "btw": "{{BTW}}",
+    "beschrijving": "{{BESCHRIJVING}}",
+    "tagline": "{{TAGLINE}}",
+    "logo_url": "{{LOGO_URL}}",
+    "website_url": "{{WEBSITE_URL}}"
+  },
+  "frontend": {
+    "template": "ecommerce-v3",
+    "versie": "v3",
+    "type": "ecommerce"
+  },
+  "design": {
+    "niveau": "standaard",
+    "kleurpalet": "ocean",
+    "lettertype": "modern",
+    "button_stijl": "rond",
+    "effect_overlay": "E2-kinetic",
+    "custom_accent": null,
+    "dark_mode": false
+  },
+  "backend": {
+    "type": "ecommerce",
+    "combinatie": null,
+    "database": "postgresql",
+    "betaal_provider": "mollie"
+  },
+  "functionaliteit": {
+    "producten_verkopen": true,
+    "afspraken_boeken": false,
+    "blog": false,
+    "leden_systeem": false,
+    "reviews": true,
+    "nieuwsbrief": true,
+    "contactformulier": true,
+    "zoekfunctie": true,
+    "meerdere_talen": false
+  },
+  "agent": {
+    "actief": true,
+    "type": "agent-ecommerce",
+    "naam": "{{AGENT_NAAM}}",
+    "niveau": "standaard",
+    "taken": ["content", "bestellingen", "email"]
+  },
+  "hosting": {
+    "niveau": "starter",
+    "provider": "transip",
+    "server_ip": "{{SERVER_IP}}",
+    "ssh_user": "{{SSH_USER}}",
+    "ssh_key_path": "{{SSH_KEY}}"
+  },
+  "domein": {
+    "naam": "{{DOMEIN}",
+    "registrar": "transip",
+    "ssl": true
+  },
+  "content": {
+    "fotos_type": "stockfoto",
+    "fotos_urls": [],
+    "eigen_teksten": false,
+    "taal": "nl"
+  },
+  "prijzen": {
+    "setup_eenmalig": 499,
+    "design_eenmalig": 200,
+    "hosting_maandelijks": 29,
+    "agent_maandelijks": 99,
+    "totaal_eerste_maand": 827,
+    "totaal_maandelijks": 128
+  }
+}
