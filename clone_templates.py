@@ -13,12 +13,12 @@ from pathlib import Path
 GITHUB_BASE = "https://github.com/LuckvsSkills"
 
 REPOS = {
-    "frontend":   "webapex-template-library",
-    "backend":    "webapex-backend-templates",
-    "admin":      "webapex-admin-templates",
-    "agent":      "webapex-agent-templates",
-    "effect":     "webapex-effect-templates",
-    "components": "webapex-component-library",
+    "frontend":   "arc-template-library",
+    "backend":    "arc-backend-templates",
+    "admin":      "arc-admin-templates",
+    "agent":      "arc-agent-templates",
+    "effect":     "arc-effect-templates",
+    "components": "arc-component-library",
 }
 
 def laad_spec(spec_pad: str) -> dict:
